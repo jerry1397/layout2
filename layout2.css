@@ -78,11 +78,11 @@ h2{
     row-gap: 10px;
     margin-bottom: 50px;
     place-items: center;
-    transition: all .5s;
+    /* transition: all .5s; */
 }
 .img{
     width: 298px;
-    transition: all .5s;
+    /* transition: all .5s; */
 }
 .para{
     padding: 0px 50px;
@@ -488,6 +488,9 @@ h3{
     h1{
         font-size: 36px;
     }
+    h2{
+        text-align: center;
+    }
     .main{
         font-size: 13px;
     }
@@ -635,6 +638,9 @@ h3{
     .big-box,.big-box1{
         padding-left: 20px;
         padding-right: 20px;
+    }
+    h2{
+        font-size: 20px;
     }
 } 
 @media screen and (max-width:292px) {
